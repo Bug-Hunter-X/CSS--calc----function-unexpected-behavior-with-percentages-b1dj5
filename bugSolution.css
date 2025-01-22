@@ -1,0 +1,10 @@
+/* Solution: restructure calc() expression */
+.element {
+  width: calc(50% - 20px);
+  /* OR, if needed, add explicit unit conversion: */
+  /* width: calc(50% - 20px); */
+}
+/* Buggy code (prior to fix): */
+/*.element {
+  width: calc(50% - 20px);
+}*/
